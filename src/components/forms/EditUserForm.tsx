@@ -5,9 +5,9 @@ import { AddUserFormProps } from "@/lib/types";
 import { handleUpdateUser } from "@/lib/action";
 import { CompareValues } from "@/lib/utils";
 
-import InputDemo from "@/components/helper/Input-demo";
+import InputDemo from "@/components/shared/Input-demo";
 import FormSubmittingButton from "@/components/forms/FormSubmittingButton";
-import { ComboboxDemo } from "@/components/helper/Combobox";
+import { ComboboxDemo } from "@/components/shared/Combobox";
 
 interface UserDetails {
   name: string;

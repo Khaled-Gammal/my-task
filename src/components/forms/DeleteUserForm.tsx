@@ -10,7 +10,7 @@ interface DeleteUserFormProps {
 
 export default function DeleteUserForm({ handleClose, user_id }: DeleteUserFormProps) {
     const handleDeleteUSerAction = async () => {
-        await handleDeleteRow("/userprofiles/delete", user_id, "/").then((res: any) => {
+        await handleDeleteRow("/assignment/userprofiles/delete", user_id, "/").then((res: any) => {
             if (res.success) {
                 toast.success(res.success);
                 handleClose();

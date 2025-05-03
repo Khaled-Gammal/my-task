@@ -10,7 +10,7 @@ import {
     PopoverContent,
     PopoverTrigger,
 } from "@/components/ui/popover";
-import InputDemo from "@/components/helper/Input-demo";
+import InputDemo from "@/components/shared/Input-demo";
 
 interface ComboboxDemoProps {
     placeHolder?: string;

@@ -92,7 +92,7 @@ async function handleAddUSer(prevState: any, formData: FormData) {
     else {
         let redirectPath;
         try {
-            const response = await fetch(BASE_URL + "/userprofiles/create/", {
+            const response = await fetch(BASE_URL + "/assignment/userprofiles/create/", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -127,7 +127,7 @@ async function handleAddUSer(prevState: any, formData: FormData) {
 async function handleUpdateUser(formData: actionUserDetails , id : number) {
     let redirectPath;
     try {
-        const response = await fetch(BASE_URL + "/userprofiles/update/" + id + "/", {
+        const response = await fetch(BASE_URL + "/assignment/userprofiles/update/" + id + "/", {
             method: "PATCH",
             headers: {
                 "Content-Type": "application/json",

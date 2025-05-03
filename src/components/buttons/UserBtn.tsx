@@ -46,11 +46,11 @@ export default function UserBtn({ addUser = false, default_user_details, handleC
                     className="max-h-[80vh] overflow-y-auto bg-white ">
                     <DialogHeader>
                         <DialogTitle className="flex items-center my-2 capitalize text-black gap-3 font-bold text-2xl">
-                            {addUser ? 'Add New User' : 'Edit User'}
+                            {addUser ? 'Add a new employee' : 'Edit employee'}
                         </DialogTitle>
                         <p className='text-sm text-gray-400'>
-                            It will take a couple of minutes.
-                            Change profile settings and confirm with SMS code.
+                        It will take a couple of minutes. 
+                        Change profile settings and confirm with SMS code
                         </p>
                         <h2 className='font-bold'>Your personal data</h2>
                     </DialogHeader>
